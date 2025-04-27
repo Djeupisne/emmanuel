@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta name="description" content="Agence de voyage spécialisée en..." />
+    <meta name="keywords" content="voyage, vacances, destinations" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luxe Voyages - L'excellence du voyage</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Préloader -->
+    <div class="preloader">
+      <div class="loader">
+        <div class="plane"><i class="fas fa-plane"></i></div>
+        <div class="clouds">
+          <div class="cloud"></div>
+          <div class="cloud"></div>
+          <div class="cloud"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Cursor personnalisé -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <a href="#" class="logo">Luxe<span>Voyages</span></a>
+        <nav class="navbar">
+          <ul class="nav-links">
+            <li><a href="#accueil" class="nav-link">Accueil</a></li>
+            <li><a href="#destinations" class="nav-link">Destinations</a></li>
+            <li><a href="#experiences" class="nav-link">Expériences</a></li>
+            <li><a href="#services" class="nav-link">Services</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-actions">
+          <button class="search-btn"><i class="fas fa-search"></i></button>
+          <button class="menu-btn">
+            <span class="menu-line"></span>
+            <span class="menu-line"></span>
+            <span class="menu-line"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+    <!-- Hero Section -->
+    <section id="accueil" class="hero">
+      <div class="hero-slider swiper">
+        <div class="swiper-wrapper">
+          <div
+            class="swiper-slide"
+            style="background-image: url('images/OIP.jpeg')"
+          >
+            <div class="hero-content">
+              <h1 class="hero-title" data-swiper-parallax="-500">TCHAD</h1>
+              <p class="hero-text" data-swiper-parallax="-300">
+                Plages de sable blanc et eaux cristallines
+              </p>
+              <a href="#" class="btn" data-swiper-parallax="-100">Découvrir</a>
+            </div>
+          </div>
+          <div
+            class="swiper-slide"
+            style="background-image: url('images/iii.jpeg')"
+          >
+            <div class="hero-content">
+              <h1 class="hero-title" data-swiper-parallax="-500">Paris</h1>
+              <p class="hero-text" data-swiper-parallax="-300">
+                La ville lumière et son romantisme
+              </p>
+              <a href="#" class="btn" data-swiper-parallax="-100">Découvrir</a>
+            </div>
+          </div>
+          <div
+            class="swiper-slide"
+            style="background-image: url('images/o.jpeg')"
+          >
+            <div class="hero-content">
+              <h1 class="hero-title" data-swiper-parallax="-500">Tokyo</h1>
+              <p class="hero-text" data-swiper-parallax="-300">
+                Tradition et modernité en harmonie
+              </p>
+              <a href="#" class="btn" data-swiper-parallax="-100">Découvrir</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+      <div class="scroll-down">
+        <div class="mouse"><div class="wheel"></div></div>
+        <div class="arrows"><span></span><span></span><span></span></div>
+      </div>
+    </section>
+    <!-- Destinations -->
+    <section id="destinations" class="destinations">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Nos Destinations Exclusives</h2>
+          <p class="section-subtitle">
+            Des voyages sur mesure pour des expériences uniques
+          </p>
+        </div>
+        <div class="destination-grid"></div>
+      </div>
+    </section>
+    <!-- Expériences -->
+    <section id="experiences" class="experiences">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Expériences Immersives</h2>
+          <p class="section-subtitle">Voyagez à travers nos expériences 360°</p>
+        </div>
+        <div class="vr-container">
+          <div class="vr-content">
+            <h3>Visite Virtuelle 360°</h3>
+            <p>Découvrez vos destinations avant même de partir</p>
+            <button class="btn vr-btn">Démarrer l'expérience</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Formulaire de contact -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="contact-container">
+          <div class="contact-info">
+            <h3>Planifions votre voyage de rêve</h3>
+            <p>
+              Nos experts sont à votre disposition pour créer un itinéraire sur
+              mesure
+            </p>
+            <div class="info-item">
+              <i class="fas fa-phone"></i><span>+228 93 36 01 50</span>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-envelope"></i
+              ><span>oualoumidjeupisnegmail.com</span>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-map-marker-alt"></i
+              ><span>Adidogome-logote ,Lome</span>
+            </div>
+          </div>
+          <form class="contact-form" id="contactForm">
+            <div class="form-group">
+              <input type="text" name="name" placeholder="Votre nom" required />
+            </div>
+            <div class="form-group">
+              <input
+                type="email"
+                name="email"
+                placeholder="Votre email"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <input type="tel" name="phone" placeholder="Téléphone" />
+            </div>
+            <div class="form-group">
+              <textarea
+                name="message"
+                placeholder="Décrivez votre voyage idéal..."
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn submit-btn">
+              Envoyer la demande
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-col">
+            <h4>Voyages de luxe</h4>
+            <p>
+              L'excellence du voyage depuis 2003. Nous créons des expériences
+              uniques et mémorables pour nos clients.
+            </p>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+          <div class="footer-col">
+            <h4>Liens rapides</h4>
+            <ul>
+              <li><a href="#accueil">Accueil</a></li>
+              <li><a href="#destinations">Destinations</a></li>
+              <li><a href="#experiences">Expériences</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Services</h4>
+            <ul>
+              <li><a href="#">Voyages sur mesure</a></li>
+              <li><a href="#">Réservations VIP</a></li>
+              <li><a href="#">Conciergerie</a></li>
+              <li><a href="#">Location de villas</a></li>
+              <li><a href="#">Croisières privées</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Newsletter</h4>
+            <p>Abonnez-vous pour recevoir nos offres exclusives</p>
+            <form class="newsletter-form">
+              <input type="email" placeholder="Votre email" required />
+              <button type="submit"><i class="fas fa-paper-plane"></i></button>
+            </form>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 LuxeVoyages. Tous droits réservés.</p>
+          <div class="legal-links">
+            <a href="#">Politique de confidentialité</a>
+            <a href="#">Conditions générales</a>
+            <a href="#">Mentions légales</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
