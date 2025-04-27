@@ -119,7 +119,7 @@ fetch('get_destinations.php')
             {
                 title: "Maldives",
                 description: "Plages de sable blanc et eaux cristallines",
-                image: "images/maldives.jpg",
+                image: "maldives.jpg",
                 price: "À partir de 2500€",
                 rating: 5,
                 badge: "Populaire"
@@ -127,7 +127,7 @@ fetch('get_destinations.php')
             {
                 title: "Paris",
                 description: "La ville lumière et son romantisme",
-                image: "images/paris.jpg",
+                image: "paris.jpg",
                 price: "À partir de 800€",
                 rating: 4,
                 badge: "Promo"
