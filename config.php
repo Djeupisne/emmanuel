@@ -1,5 +1,5 @@
 <?php
-$host = 'localhost';
+$host = 'luxe_voyage.mysql';
 $dbname = 'luxe_voyages';
 $username = 'root';
 $password = '';
